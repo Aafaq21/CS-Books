@@ -1,0 +1,243 @@
+<html>
+<head>
+<style>
+.header{position:sticky}
+.logo{width:30%;float:left}
+.nav{width:70%;float:right}
+.nav ul li{
+
+background-color:red;
+
+width:150px;
+border: 1px solid;
+height:50px;
+line-height:50px;
+text-align:center;
+float:left;
+color:white;
+
+}
+	
+	li{
+	list-style-type:none;
+	}
+.nav ul li:hover{
+background-color:green;
+
+}
+li a{
+text-decoration:none;
+color:white;
+}
+.nav ul UL{
+
+display:none;
+}
+.nav ul li:hover > ul{
+
+display:block;
+}	
+.slider {
+    width: 100%;
+    height: 500px;
+	background:url('slid1.jpg');
+	background-size:100%;
+    animation-name: slider;
+    animation-duration: 30s;
+	animation-iteration-count: infinite;
+	background-repeat:no-repeat;
+	}
+	@keyframes slider {
+    0%   {background:url('slid1.jpg');background-size:100%; background-repeat:no-repeat;}
+    20%  {background:url('slid2.jpg');background-size:100%;background-repeat:no-repeat;}
+    30%  {background:url('slid3.jpg');background-size:100%;background-repeat:no-repeat;}
+    50% {background:url('slid4.jpg');background-size:100%;background-repeat:no-repeat;}
+    60% {background:url('slid5.jpg');background-size:100%;background-repeat:no-repeat;}
+    75% {background:url('slid6.jpg');background-size:100%;background-repeat:no-repeat;}
+    85% {background:url('slid7.jpg');background-size:100%;background-repeat:no-repeat;}
+    100% {background:url('slid8.jpg');background-size:100%;background-repeat:no-repeat;}
+}
+.gallery{
+margin:6px;
+border:1px solid red;
+widht:160px;
+float:left;
+}
+.gallery img{
+widht:100%;
+
+}
+.des{padding:15px;
+text-align:center;}
+
+
+.whole{margin-top:5%;
+margin-left:20%;
+}
+.t1{
+margin:6px;
+
+widht:160px;
+float:left;
+}
+.t1 img{
+widht:100%;
+border-radius:50px;
+
+}
+.des{padding:15px;
+text-align:center;}
+
+
+.team{margin-top:5%;
+margin-left:20%;
+}
+
+
+
+
+.gal{background-color:pink;color:red;text-align:center}
+body{background-color:white}
+.teamtx{background-color:pink;color:red;text-align:center}
+.clear{clear:both}
+.footer {
+  
+   
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+a{text-decoration:none;color:white;}
+</style>
+</head>
+<body>
+<div class="header">
+<div class="logo">
+<img src="logo.jpg">
+</div>
+<div class="nav">
+<ul >
+
+		<li>HOME</LI>
+		<li>ABOUT MEMBERS
+		<ul>
+		<li>AAFAQ</li>
+		<li>Allahwarayo </li>
+		<li>YASIR	</li>
+		<li>SARFRAZ</li>
+		</ul>
+		</LI>
+		<li>BOOKS
+		<ul>
+		<li>COMPUTER
+		<UL>
+		<LI>PART1</LI>
+		<LI>PART2
+		
+		<a href="http://www.freetechbooks.com/introduction-to-computer-science-f10.html">Download</a>
+		
+		</LI>
+		<LI>PART3</LI>
+		<LI>PART4</LI>
+		</UL>
+		</li>
+		</UL>
+		<lI>CONTACT
+		<ul> <li><a href="mailto:aafaq.odho@gmail.com">Click here </a></li></ul>
+		</LI>
+		
+		
+
+</ul>
+
+</div>
+</div>
+<div class="slider"></div>
+<div class="text">
+<h1 class="gal">Our Gallery</h1>
+</div>
+<div class="whole">
+<div class="gallery">
+<a href="gallary1.jpg" target="_blank">
+<img src="gallary1.jpg" width="200" height="200"></a>
+<div class="des">Hello  </div>
+</div>
+<div class="gallery">
+<a href="gallary2.jpg" target="_blank">
+<img src="gallary2.jpg" width="200" height="200"></a>
+<div class="des">Hello  </div>
+</div>
+<div class="gallery">
+<a href="gallary3.jpg" target="_blank">
+<img src="gallary3.jpg" width="200" height="200"></a>
+<div class="des">Hello  </div>
+</div>
+<div class="gallery">
+<a href="gallary4.jpg" target="_blank">
+<img src="gallary4.jpg" width="200" height="200"></a>
+<div class="des">Hello  </div>
+</div>
+</div>
+
+<div class="whole">
+<div class="gallery">
+<a href="gallary1.jpg" target="_blank">
+<img src="gallary1.jpg" width="200" height="200"></a>
+<div class="des">  </div>
+</div>
+<div class="gallery">
+<a href="gallary2.jpg" target="_blank">
+<img src="gallary2.jpg" width="200" height="200"></a>
+<div class="des">  </div>
+</div>
+<div class="gallery">
+<a href="gallary3.jpg" target="_blank">
+<img src="gallary3.jpg" width="200" height="200"></a>
+<div class="des">  </div>
+</div>
+<div class="gallery">
+<a href="gallary4.jpg" target="_blank">
+<img src="gallary4.jpg" width="200" height="200"></a>
+<div class="des">  </div>
+</div>
+</div>
+<div class="clear"></div>
+<div class="text">
+<h1 class="teamtx">Our Team</h1>
+</div>
+
+<div class="team">
+<div class="t1">
+<a href="pic1.jpg" target="_blank">
+<img src="pic1.jpg" width="200" height="200"></a>
+<div class="des">Muhammad Aafaq odho  </div>
+</div>
+<div class="t1">
+<a href="pic2.jpg" target="_blank">
+<img src="pic2.jpg" width="200" height="200"></a>
+<div class="des">Allahwarayo Solangi </div>
+</div>
+<div class="t1">
+<a href="pic3.jpg" target="_blank">
+<img src="pic3.jpg" width="200" height="200"></a>
+<div class="des">Sarfraz Ali Bughio  </div>
+</div>
+<div class="t1">
+<a href="pic4.jpg" target="_blank">
+<img src="pic4.jpg" width="200" height="200"></a>
+<div class="des"> Muhammad yasir Mangi   </div>
+</div>
+</div>
+<div class="clear"></div>
+<div class="footer">
+  <p>follow us on </p>
+  
+  <a href="">facebook</a><br>
+  <a href="mailto:aafaq.odho@gmail.com">gmail</a><br>
+  <a href="">instragram</a>
+  
+</div>
+
+</body>
+</html>
